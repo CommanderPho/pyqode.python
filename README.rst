@@ -1,3 +1,8 @@
+This is a fork of the original [PyQode](https://github.com/pyQode/pyqode.python)
+containing a modification from [znqi fixing jedi compatibility](https://github.com/znqi/pyqode.python)
+and deployed to pypi by [haesleinhuepf](https://github.com/haesleinhuepf)
+under the name/version [haesleinhuepf-pyqode.python==2.14.0](https://pypistats.org/packages/haesleinhuepf-pyqode.python).
+
 **Bugfix maintenance only**
 
 .. image:: https://raw.githubusercontent.com/pyQode/pyQode/master/media/pyqode-banner.png
