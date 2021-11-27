@@ -56,7 +56,7 @@ def readme():
 # get requirements
 requirements = [
     'pyqode.qt',
-    'pyqode.core',
+    'haesleinhuepf-pyqode.core',
     'jedi',
     'pycodestyle',
     'pyflakes',
