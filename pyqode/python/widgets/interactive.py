@@ -2,7 +2,7 @@
 This module contains the Interactive python console, for running python
 programs.
 """
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 from pyqode.core.widgets import InteractiveConsole
 
 

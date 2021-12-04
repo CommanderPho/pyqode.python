@@ -1,6 +1,6 @@
 # This foo class is here so that the document analyser got nodes with children
 # DO NOT REMOVE IT
-from pyqode.qt.QtTest import QTest
+from qtpy.QtTest import QTest
 from pyqode.core import modes
 from ..helpers import editor_open
 

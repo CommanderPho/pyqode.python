@@ -8,7 +8,7 @@ specified line.
 import os
 import sys
 from pyqode.core.api import TextHelper
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.python.widgets import PyInteractiveConsole, PyCodeEdit
 
 

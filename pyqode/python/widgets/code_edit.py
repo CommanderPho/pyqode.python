@@ -5,7 +5,7 @@ This package contains the python code editor widget
 import sys
 from pyqode.core.api import ColorScheme
 from pyqode.python.backend import server
-from pyqode.qt import QtCore, QtGui
+from qtpy import QtCore, QtGui
 from pyqode.core import api
 from pyqode.core import modes
 from pyqode.core import panels

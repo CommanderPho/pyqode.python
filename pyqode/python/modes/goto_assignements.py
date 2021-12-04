@@ -5,7 +5,7 @@ Contains the go to assignments mode.
 import logging
 import os
 from pyqode.core import icons
-from pyqode.qt import QtCore, QtGui, QtWidgets
+from qtpy import QtCore, QtGui, QtWidgets
 from pyqode.core.api import Mode, TextHelper, DelayJobRunner, CodeEdit
 from pyqode.core.backend import NotRunning
 from pyqode.core.modes import WordClickMode

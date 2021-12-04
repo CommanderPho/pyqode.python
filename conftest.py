@@ -10,7 +10,7 @@ This scripts configures the test suite. We do two things:
 import logging
 import sys
 import pytest
-from pyqode.qt.QtWidgets import QApplication
+from qtpy.QtWidgets import QApplication
 
 
 try:
@@ -50,7 +50,7 @@ def editor(request):
     from pyqode.core import modes, cache
     from pyqode.python.widgets.code_edit import PyCodeEdit
     from pyqode.python.panels import SymbolBrowserPanel
-    from pyqode.qt.QtTest import QTest
+    from qtpy.QtTest import QTest
 
     cache.Cache().clear()
 

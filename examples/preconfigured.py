@@ -6,7 +6,7 @@ logging.basicConfig()
 # optionally, set the qt api to use (in ['pyqt4', 'pyqt5', 'pyside'])
 # import os; os.environ['QT_API'] = 'pyside'
 import sys
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.python.backend import server
 from pyqode.python.widgets import PyCodeEdit
 from pyqode.python.widgets import code_edit

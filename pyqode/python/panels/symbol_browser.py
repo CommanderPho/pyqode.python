@@ -4,7 +4,7 @@ SymbolBrowserPanel
 """
 import logging
 from pyqode.core.api import Panel, TextHelper
-from pyqode.qt import QtGui, QtCore, QtWidgets
+from qtpy import QtGui, QtCore, QtWidgets
 from pyqode.core.share import Definition
 
 

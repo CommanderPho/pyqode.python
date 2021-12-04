@@ -7,8 +7,8 @@ import platform
 import sys
 from pyqode.core.api import TextHelper
 from pyqode.core.api.syntax_highlighter import PYGMENTS_STYLES, ColorScheme
-from pyqode.qt import QtCore
-from pyqode.qt import QtWidgets
+from qtpy import QtCore
+from qtpy import QtWidgets
 from pyqode.core import widgets
 from pyqode.python.backend import server
 from pyqode.python.widgets.code_edit import PyCodeEdit

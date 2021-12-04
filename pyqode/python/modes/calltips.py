@@ -5,7 +5,7 @@ Contains the JediCompletionProvider class implementation.
 import logging
 
 from pyqode.core.api import Mode, TextHelper
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 
 from pyqode.python.backend import workers
 

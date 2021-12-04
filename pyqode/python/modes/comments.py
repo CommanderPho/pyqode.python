@@ -2,7 +2,7 @@
 import sys
 import os
 from pyqode.core import api, icons
-from pyqode.qt import QtGui, QtCore, QtWidgets
+from qtpy import QtGui, QtCore, QtWidgets
 
 
 class CommentsMode(api.Mode):

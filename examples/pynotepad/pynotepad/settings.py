@@ -3,7 +3,7 @@ This module provides an easy access to the application settings
 """
 import json
 import os
-from pyqode.qt.QtCore import QSettings
+from qtpy.QtCore import QSettings
 import sys
 
 

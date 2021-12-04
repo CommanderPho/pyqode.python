@@ -3,7 +3,7 @@ This module provides a python console widgets based on the pyqode.core's OutputW
 """
 import sys
 
-from pyqode.qt import QtWidgets, QtGui
+from qtpy import QtWidgets, QtGui
 from pyqode.core import modes as modes
 from pyqode.core.api import ColorScheme
 from pyqode.core.widgets import output_window

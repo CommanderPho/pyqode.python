@@ -1,4 +1,4 @@
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.python.widgets import PyConsole
 
 

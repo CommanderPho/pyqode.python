@@ -20,8 +20,8 @@ E.g.::
 """
 import glob
 from pyqode.core.api import TextHelper
-from pyqode.qt import QtCore, QtWidgets
-from pyqode.qt.QtTest import QTest
+from qtpy import QtCore, QtWidgets
+from qtpy.QtTest import QTest
 import pytest
 from test.helpers import cwd_at
 

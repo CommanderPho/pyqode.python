@@ -3,8 +3,8 @@ Test the autocomplete mode
 """
 import pytest
 from pyqode.core.api import TextHelper
-from pyqode.qt import QtCore, QtWidgets
-from pyqode.qt.QtTest import QTest
+from qtpy import QtCore, QtWidgets
+from qtpy.QtTest import QTest
 from pyqode.python import modes as pymodes
 from test.helpers import editor_open
 

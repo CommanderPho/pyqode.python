@@ -10,7 +10,7 @@ from pyqode.core.panels import CheckerPanel
 logging.basicConfig(level=logging.DEBUG)
 import sys
 
-from pyqode.qt import QtWidgets
+from qtpy import QtWidgets
 from pyqode.core.api import CodeEdit
 from pyqode.python.backend import server
 from pyqode.python.modes import PyFlakesChecker, PythonSH

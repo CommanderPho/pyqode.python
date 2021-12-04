@@ -6,7 +6,7 @@ The widget works in combination with a DocumentAnalyserMode. Such a mode must
 be installed on the editor widget otherwise no data will be displayed.
 """
 import sys
-from pyqode.qt import QtCore, QtWidgets
+from qtpy import QtCore, QtWidgets
 from pyqode.core.api import code_edit
 from pyqode.core.widgets import OutlineTreeWidget
 from pyqode.python.widgets import PyCodeEdit
