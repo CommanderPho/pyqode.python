@@ -55,7 +55,6 @@ def readme():
 
 # get requirements
 requirements = [
-    'pyqode.qt',
     'haesleinhuepf-pyqode.core',
     'jedi',
     'pycodestyle',
@@ -70,10 +69,10 @@ setup(
     packages=[p for p in find_packages() if 'test' not in p],
     keywords=["CodeEdit PySide PyQt code editor widget python"],
     package_dir={'pyqode': 'pyqode'},
-    url='https://github.com/pyQode/pyqode.python',
+    url='https://github.com/haesleinhuepf/pyqode.python',
     license='MIT',
-    author='Colin Duquesnoy',
-    author_email='colin.duquesnoy@gmail.com',
+    author='Robert Haase, Colin Duquesnoy',
+    author_email='robert.haase@tu-dresden.de',
     description=DESCRIPTION,
     long_description=readme(),
     install_requires=requirements,
