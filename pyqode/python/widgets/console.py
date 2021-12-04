@@ -24,7 +24,7 @@ class SyntaxHighlighter(pymodes.PythonSH):
             if match:
                 start, end = match.span('url')
                 fmt = QtGui.QTextCharFormat()
-                fmt.setForeground(QtWidgets.qApp.palette().highlight().color())
+                fmt.setForeground(QtWidgets.QApplication.instance().palette().highlight().color())
                 fmt.setUnderlineStyle(fmt.SingleUnderline)
                 self.setFormat(start, end - start, fmt)
 
