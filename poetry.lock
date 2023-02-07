@@ -534,6 +534,26 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
 [[package]]
+name = "pho-pyqode.core"
+version = "2.15.5"
+description = "PyQt/PySide Source Code Editor Widget"
+category = "main"
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.dependencies]
+future = "*"
+pygments = "*"
+
+[package.source]
+type = "git"
+url = "https://github.com/CommanderPho/pyqode.core.git"
+reference = "HEAD"
+resolved_reference = "21bf7e21c910dd5cafe9f531d7d0026271d38730"
+
+[[package]]
 name = "pip"
 version = "23.0"
 description = "The PyPA recommended tool for installing Python packages."
@@ -626,26 +646,6 @@ files = [
 
 [package.extras]
 plugins = ["importlib-metadata"]
-
-[[package]]
-name = "pyqode.core"
-version = "2.15.5"
-description = "PyQt/PySide Source Code Editor Widget"
-category = "main"
-optional = false
-python-versions = "*"
-files = []
-develop = false
-
-[package.dependencies]
-future = "*"
-pygments = "*"
-
-[package.source]
-type = "git"
-url = "https://github.com/CommanderPho/pyqode.core.git"
-reference = "HEAD"
-resolved_reference = "a2583dc5918cf733b96a96d7f0c23b16584ffd38"
 
 [[package]]
 name = "pytest"
@@ -921,4 +921,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9"
-content-hash = "7b2fb21273bc332bddcca56b76bf8c56c037a0850665780ac84ba627ad0a259c"
+content-hash = "3794eb8743ed6adfe95a77cc2d49119c7990a14456ac47e9e9b979164356acb9"

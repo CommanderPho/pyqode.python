@@ -17,7 +17,7 @@ docutils = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
+"pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"}
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
 
