@@ -60,7 +60,7 @@ def readme():
 
 # get requirements
 requirements = [
-    'pho-pyqode.core', # 'haesleinhuepf-pyqode.core',
+    'pyqode.core', # 'haesleinhuepf-pyqode.core',
     'jedi',
     'pycodestyle',
     'pyflakes',
@@ -68,7 +68,7 @@ requirements = [
 ]
 
 setup(
-    name='pho-pyqode.python',
+    name='pyqode.python',
     namespace_packages=['pyqode'],
     version=__version__,
     packages=[p for p in find_packages() if 'test' not in p],

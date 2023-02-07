@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
-name = "pho-pyqode.python"
-version = "3.0.0"
+name = "pyqode.python"
+version = "3.0.1"
 description = "Adds python support to pyqode.core"
 license = "MIT"
 keywords = ["CodeEdit", "PySide", "PyQt", "code", "editor", "widget", "python"]
@@ -16,10 +16,11 @@ docutils = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-# "pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
+"haesleinhuepf-pyqode.core" = "*"
+# "pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
-pho-pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
+# pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
 
 
 [tool.poetry.group.dev.dependencies]
