@@ -645,7 +645,7 @@ pygments = "*"
 type = "git"
 url = "https://github.com/CommanderPho/pyqode.core.git"
 reference = "HEAD"
-resolved_reference = "92ad27fe9ee713ca565b83b4b0192fcea2d94d67"
+resolved_reference = "a2583dc5918cf733b96a96d7f0c23b16584ffd38"
 
 [[package]]
 name = "pytest"
