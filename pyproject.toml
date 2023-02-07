@@ -1,23 +1,23 @@
 [tool]
 [tool.poetry]
-name = "haesleinhuepf-pyqode.python"
-version = "0.0.1"
+name = "pyqode.python"
+version = "3.0.0"
 description = "Adds python support to pyqode.core"
 license = "MIT"
 keywords = ["CodeEdit", "PySide", "PyQt", "code", "editor", "widget", "python"]
 classifiers = ["Development Status :: 5 - Production/Stable", "Environment :: X11 Applications :: Qt", "Environment :: Win32 (MS Windows)", "Intended Audience :: Developers", "License :: OSI Approved :: MIT License", "Operating System :: Microsoft :: Windows", "Operating System :: POSIX :: Linux", "Programming Language :: Python :: 2.7", "Programming Language :: Python :: 3.2", "Programming Language :: Python :: 3.3", "Programming Language :: Python :: 3.4", "Programming Language :: Python :: 3.5", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Topic :: Software Development :: Libraries :: Application Frameworks", "Topic :: Software Development :: Widget Sets", "Topic :: Text Editors :: Integrated Development Environments (IDE)"]
-homepage = "https://github.com/haesleinhuepf/pyqode.python"
+homepage = "https://github.com/CommanderPho/pyqode.python"
 authors = ["Robert Haase, Colin Duquesnoy <robert.haase@tu-dresden.de>"]
 readme = "README.rst"
 
 [tool.poetry.dependencies]
 python = ">=3.9"
 docutils = "*"
-"haesleinhuepf-pyqode.core" = "*"
+# "haesleinhuepf-pyqode.core" = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-# pyqode-core = {git = "https://github.com/haesleinhuepf/pyqode.core.git"}
+pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
 

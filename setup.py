@@ -60,7 +60,7 @@ def readme():
 
 # get requirements
 requirements = [
-    'haesleinhuepf-pyqode.core',
+    'pho-pyqode.core', # 'haesleinhuepf-pyqode.core',
     'jedi',
     'pycodestyle',
     'pyflakes',
@@ -68,13 +68,13 @@ requirements = [
 ]
 
 setup(
-    name='haesleinhuepf-pyqode.python',
+    name='pho-pyqode.python',
     namespace_packages=['pyqode'],
     version=__version__,
     packages=[p for p in find_packages() if 'test' not in p],
     keywords=["CodeEdit PySide PyQt code editor widget python"],
     package_dir={'pyqode': 'pyqode'},
-    url='https://github.com/haesleinhuepf/pyqode.python',
+    url='https://github.com/CommanderPho/pyqode.python',
     license='MIT',
     author='Robert Haase, Colin Duquesnoy',
     author_email='robert.haase@tu-dresden.de',

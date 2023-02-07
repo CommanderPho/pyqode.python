@@ -334,22 +334,6 @@ files = [
 ]
 
 [[package]]
-name = "haesleinhuepf-pyqode-core"
-version = "2.15.5"
-description = "PyQt/PySide Source Code Editor Widget"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "haesleinhuepf-pyqode.core-2.15.5.tar.gz", hash = "sha256:3b8ca2623244cccc5d7cf3ab02906375a597686d670bab772049e18177db16eb"},
-    {file = "haesleinhuepf_pyqode.core-2.15.5-py2.py3-none-any.whl", hash = "sha256:229b0ae4ba230408e1bc9ebef3b60a905dcb1fdb632d464a7037886fa4b55d4c"},
-]
-
-[package.dependencies]
-future = "*"
-pygments = "*"
-
-[[package]]
 name = "idna"
 version = "3.4"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -644,6 +628,26 @@ files = [
 plugins = ["importlib-metadata"]
 
 [[package]]
+name = "pyqode.core"
+version = "2.15.5"
+description = "PyQt/PySide Source Code Editor Widget"
+category = "main"
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.dependencies]
+future = "*"
+pygments = "*"
+
+[package.source]
+type = "git"
+url = "https://github.com/CommanderPho/pyqode.core.git"
+reference = "HEAD"
+resolved_reference = "92ad27fe9ee713ca565b83b4b0192fcea2d94d67"
+
+[[package]]
 name = "pytest"
 version = "7.2.1"
 description = "pytest: simple powerful testing with Python"
@@ -917,4 +921,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9"
-content-hash = "4accf8f08e5b55a3b1420e7eab927901bbce473387f5121041780eb4b728898c"
+content-hash = "7b2fb21273bc332bddcca56b76bf8c56c037a0850665780ac84ba627ad0a259c"
