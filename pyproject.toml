@@ -1,6 +1,6 @@
 [tool]
 [tool.poetry]
-name = "pyqode.python"
+name = "pho-pyqode.python"
 version = "3.0.0"
 description = "Adds python support to pyqode.core"
 license = "MIT"
