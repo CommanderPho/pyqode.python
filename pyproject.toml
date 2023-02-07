@@ -16,9 +16,10 @@ docutils = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-"pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
+# "pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
+pho-pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
 
 
 [tool.poetry.group.dev.dependencies]
