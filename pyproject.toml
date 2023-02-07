@@ -13,11 +13,10 @@ readme = "README.rst"
 [tool.poetry.dependencies]
 python = ">=3.9"
 docutils = "*"
-# "haesleinhuepf-pyqode.core" = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-"pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"}
+"pho-pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
 
