@@ -19,6 +19,7 @@ pycodestyle = "*"
 pyflakes = "*"
 # pyqode-core = {git = "https://github.com/haesleinhuepf/pyqode.core.git"}
 # https://github.com/haesleinhuepf/pyQode.git
+pip = "^23.0"
 
 
 [tool.poetry.group.dev.dependencies]
