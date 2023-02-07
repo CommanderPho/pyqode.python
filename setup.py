@@ -4,6 +4,11 @@
 This setup script packages pyqode.python
 """
 import sys
+# import os; os.environ['QT_API'] = 'pyside'
+# Here, you might want to set the ``QT_API`` to use.
+# Valid values are: 'pyqt5', 'pyqt4' or 'pyside'
+# See 
+import os; os.environ['QT_API'] = 'pyqt5'
 from setuptools import setup, find_packages
 from pyqode.python import __version__
 from setuptools.command.test import test as TestCommand

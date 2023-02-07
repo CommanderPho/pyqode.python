@@ -4,7 +4,7 @@ This simple example shows you how to use the pre-configured python editor.
 import logging
 logging.basicConfig()
 # optionally, set the qt api to use (in ['pyqt4', 'pyqt5', 'pyside'])
-# import os; os.environ['QT_API'] = 'pyside'
+import os; os.environ['QT_API'] = 'pyqt5'
 import sys
 from qtpy import QtWidgets
 from pyqode.python.backend import server
