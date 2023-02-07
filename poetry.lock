@@ -534,12 +534,12 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
 [[package]]
-name = "pho-pyqode.core"
-version = "2.15.5"
+name = "pho-pyqode-core"
+version = "3.0.0"
 description = "PyQt/PySide Source Code Editor Widget"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.9"
 files = []
 develop = false
 
@@ -551,7 +551,7 @@ pygments = "*"
 type = "git"
 url = "https://github.com/CommanderPho/pyqode.core.git"
 reference = "HEAD"
-resolved_reference = "21bf7e21c910dd5cafe9f531d7d0026271d38730"
+resolved_reference = "3b5f896295869087beb2dc91938345857ddbd13c"
 
 [[package]]
 name = "pip"
