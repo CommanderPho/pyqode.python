@@ -16,11 +16,13 @@ docutils = "*"
 jedi = "*"
 pycodestyle = "*"
 pyflakes = "*"
-"haesleinhuepf-pyqode.core" = "*"
+pyqode-core = {path = "../pyqode.core/dist/pyqode_core-3.0.0-py2.py3-none-any.whl"}
+# "haesleinhuepf-pyqode.core" = "*"
 # "pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
 # https://github.com/haesleinhuepf/pyQode.git
 pip = "^23.0"
 # pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
+# frosted = "^1.4.1"
 
 
 [tool.poetry.group.dev.dependencies]
