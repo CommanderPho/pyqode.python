@@ -1,35 +1,63 @@
-[tool]
-[tool.poetry]
+[project]
 name = "pyqode.python"
 version = "3.0.1"
 description = "Adds python support to pyqode.core"
-license = "MIT"
-keywords = ["CodeEdit", "PySide", "PyQt", "code", "editor", "widget", "python"]
-classifiers = ["Development Status :: 5 - Production/Stable", "Environment :: X11 Applications :: Qt", "Environment :: Win32 (MS Windows)", "Intended Audience :: Developers", "License :: OSI Approved :: MIT License", "Operating System :: Microsoft :: Windows", "Operating System :: POSIX :: Linux", "Programming Language :: Python :: 2.7", "Programming Language :: Python :: 3.2", "Programming Language :: Python :: 3.3", "Programming Language :: Python :: 3.4", "Programming Language :: Python :: 3.5", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Topic :: Software Development :: Libraries :: Application Frameworks", "Topic :: Software Development :: Widget Sets", "Topic :: Text Editors :: Integrated Development Environments (IDE)"]
-homepage = "https://github.com/CommanderPho/pyqode.python"
-authors = ["Robert Haase, Colin Duquesnoy <robert.haase@tu-dresden.de>"]
+authors = [{ name = "Robert Haase, Colin Duquesnoy", email = "robert.haase@tu-dresden.de" }]
+requires-python = ">=3.9"
 readme = "README.rst"
+license = "MIT"
+keywords = [
+    "CodeEdit",
+    "PySide",
+    "PyQt",
+    "code",
+    "editor",
+    "widget",
+    "python",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: Qt",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Widget Sets",
+    "Topic :: Text Editors :: Integrated Development Environments (IDE)",
+]
+dependencies = [
+    "docutils",
+    "jedi",
+    "pycodestyle",
+    "pyflakes",
+    "pyqode-core",
+    "pip~=23.0",
+]
 
-[tool.poetry.dependencies]
-python = ">=3.9"
-docutils = "*"
-jedi = "*"
-pycodestyle = "*"
-pyflakes = "*"
-pyqode-core = {path = "../pyqode.core/dist/pyqode_core-3.0.0-py2.py3-none-any.whl"}
-# "haesleinhuepf-pyqode.core" = "*"
-# "pyqode.core" = {git = "https://github.com/CommanderPho/pyqode.core.git"} # # "haesleinhuepf-pyqode.core" = "*"
-# https://github.com/haesleinhuepf/pyQode.git
-pip = "^23.0"
-# pyqode-core = {git = "https://github.com/CommanderPho/pyqode.core.git"}
-# frosted = "^1.4.1"
+[project.urls]
+Homepage = "https://github.com/CommanderPho/pyqode.python"
 
+[dependency-groups]
+dev = [
+    "setuptools>=67.2.0,<68",
+    "pytest>=7.2.1,<8",
+    "twine>=4.0.2,<5",
+    "coveralls>=3.3.1,<4",
+    "jedi>=0.18.2,<0.19",
+    "pytest-cov>=4.0.0,<5",
+]
 
-[tool.poetry.group.dev.dependencies]
-setuptools = "^67.2.0"
-pytest = "^7.2.1"
-twine = "^4.0.2"
-coveralls = "^3.3.1"
-jedi = "^0.18.2"
-pytest-cov = "^4.0.0"
+[tool.uv]
+
+[tool.uv.sources]
+pyqode-core = { path = "../pyqode.core/dist/pyqode_core-3.0.0-py2.py3-none-any.whl" }
 
